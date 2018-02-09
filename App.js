@@ -24,12 +24,12 @@ class App extends Component {
     });
 
     const tokenProvider = new TokenProvider({
-      url: "https://us1.pusherplatform.io/services/chatkit_token_provider/v1/5a9620bf-4536-4e82-8655-55a9e903d9fe/token?instance_locator=v1:us1:5a9620bf-4536-4e82-8655-55a9e903d9fe",
+      url: "CHANGE_TO_YOUR_URL",
       userId: "ridhwan"
     });
 
     const chatManager = new ChatManager({
-      instanceLocator: 'v1:us1:5a9620bf-4536-4e82-8655-55a9e903d9fe',
+      instanceLocator: 'CHANGE_TO_YOUR_INSTANCE_LOCATOR',
       userId: "ridhwan",
       tokenProvider: tokenProvider
     });
